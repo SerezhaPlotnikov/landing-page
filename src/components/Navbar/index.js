@@ -14,7 +14,7 @@ import {
 
 const Navbar = ({ toggle }) => {
   return (
-    <div>
+    <>
       <Nav>
         <NavContainer>
           <NavLog to='/'>Project Ones</NavLog>
@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
           </NavBtn>
         </NavContainer>
       </Nav>
-    </div>
+    </>
   )
 }
 
