@@ -18,10 +18,18 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about'>About</SidebarLink>
-          <SidebarLink to='discover'>Siscover</SidebarLink>
-          <SidebarLink to='services'>Services</SidebarLink>
-          <SidebarLink to='singup'>Sing Up</SidebarLink>
+          <SidebarLink to='about' onClick={toggle}>
+            About
+          </SidebarLink>
+          <SidebarLink to='discover' onClick={toggle}>
+            Discover
+          </SidebarLink>
+          <SidebarLink to='services' onClick={toggle}>
+            Services
+          </SidebarLink>
+          <SidebarLink to='signup' onClick={toggle}>
+            Sing Up
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRouter to='/singin'>Sing In</SidebarRouter>

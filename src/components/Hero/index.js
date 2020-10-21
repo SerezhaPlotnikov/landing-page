@@ -35,7 +35,7 @@ export default function Hero() {
               to='signup'
               onMouseEnter={onHover}
               onMouseLeave={onHover}
-              primery='true'
+              primary='true'
               dark='true'
             >
               Get started{hover ? <ArrowForward /> : <ArrowRight />}
